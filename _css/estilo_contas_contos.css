@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section#principal
+{
+    width: 98%;
+    background-color: rgb(234, 248, 236);
+    height: 1200px;
+    padding: 1%;    
+    display: block;
+    float: left;
+    margin-top: -15px;
+    
+}
+section#principal img
+{
+    width: 60%;
+}
+p{
+    text-indent: 50px;
+    font-size: 20px;
+    text-align: justify;
+    margin:0px 20px 0px 20px ;
+}
+
+h4
+{
+    font-size: 25px;
+    text-indent: 20px;
+}
+
+.titulo h1
+{
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 4px #000000;
+    color: rgba(0, 0,0,0.5 );
+    background-image: linear-gradient(to top left,rgb(244, 247, 244),rgb(4, 119, 10));
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px;
+    width: 58%;
+
+}
