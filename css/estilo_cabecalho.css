@@ -268,82 +268,40 @@ footer#rodape p
         
     }
 }
-@media all and (min-width:580px)
+@media all and (min-width:2800px)
 {
     div#interface
     {
-        width: 340px;        
+        width: 720px;        
         
     }
     div#logo
-    {
-        width: 100% ;
-    }
-    div#menu
-    {
-        background-image: linear-gradient(to bottom left,rgb(6, 61, 6),rgb(7, 187, 16));
-    }
-    div#logo h1{
-        width: 50%;
+    { 
+        width: 100%;
+        border-top-right-radius: 20px;
         
-
+            
     }
-
     div#logo img 
     {
-        
-        margin: 0px auto 0px 10px;
+        margin: 0px auto 0px 200px;
+
     }
-    
-
-    
-
-    
-    div#menu ul
-    {
-               
-        background-image: linear-gradient(to bottom left,rgb(6, 61, 6),rgb(4, 119, 10));
-        width: 52%;        
-        margin: -100px 0px 0px 500px;
-        display: absolute;
-        float: left;
-        z-index: 5;
-        
-
-        
+    div#menu
+    {     
+        display: block;    
+        width: 100%;
+        height: 40px;
+        background-image: linear-gradient(to bottom left,rgb(6, 61, 6),rgb(7, 187, 16));
+        border-top-right-radius:0px;
     }
-    
-
-   input[type="checkbox"]:checked ~ ul
-   {
-       transition: transform 1s;
-       transform: translateX(-380px);
-       
-   }
-   div#menu li {
-    
-    display:inline-block;
-    width: 90%;
-    text-decoration: none;    
-    
-    
-       
-    transition:background-color 1s , color 1s; 
- 
-}
-    
-        
-    
-    
-
-    div#menu img 
+    div#menu ul 
     {
-        margin-right: 10px;
-        float: right;
-        width: 30px;
-        height: 30px;
         display: block;
+        margin: 0px auto 0px 110px;
         
+        
+
     }
 }
 
