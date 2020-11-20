@@ -268,5 +268,83 @@ footer#rodape p
         
     }
 }
+@media all and (min-width:580px)
+{
+    div#interface
+    {
+        width: 340px;        
+        
+    }
+    div#logo
+    {
+        width: 100% ;
+    }
+    div#menu
+    {
+        background-image: linear-gradient(to bottom left,rgb(6, 61, 6),rgb(7, 187, 16));
+    }
+    div#logo h1{
+        width: 50%;
+        
+
+    }
+
+    div#logo img 
+    {
+        
+        margin: 0px auto 0px 10px;
+    }
+    
+
+    
+
+    
+    div#menu ul
+    {
+               
+        background-image: linear-gradient(to bottom left,rgb(6, 61, 6),rgb(4, 119, 10));
+        width: 52%;        
+        margin: -100px 0px 0px 500px;
+        display: absolute;
+        float: left;
+        z-index: 5;
+        
+
+        
+    }
+    
+
+   input[type="checkbox"]:checked ~ ul
+   {
+       transition: transform 1s;
+       transform: translateX(-380px);
+       
+   }
+   div#menu li {
+    
+    display:inline-block;
+    width: 90%;
+    text-decoration: none;    
+    
+    
+       
+    transition:background-color 1s , color 1s; 
+ 
+}
+    
+        
+    
+    
+
+    div#menu img 
+    {
+        margin-right: 10px;
+        float: right;
+        width: 30px;
+        height: 30px;
+        display: block;
+        
+    }
+}
 
 
