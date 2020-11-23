@@ -268,11 +268,12 @@ footer#rodape p
         
     }
 }
-@media all and (max-width:2800px)
+/*@media all and (max-width:3800px)
 {
     div#interface
     {
-        width: 720px;        
+        width: 720px; 
+        height: 1200px;       
         
     }
     div#logo
@@ -304,5 +305,5 @@ footer#rodape p
 
     }
 }
-
+*/
 

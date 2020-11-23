@@ -6,11 +6,11 @@ section#principal
 {
     width: 98%;
     background-color: rgb(234, 248, 236);
-    height: 1200px;
+    height: 100%;
     padding: 1%;    
     display: block;
     float: left;
-    margin-top: -15px;
+    margin-top: -5px;
     
 }
 section#principal img
@@ -43,3 +43,4 @@ h4
     width: 58%;
 
 }
+
