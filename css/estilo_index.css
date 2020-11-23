@@ -266,30 +266,4 @@ aside#lateral.foto_legenda
 }
     
 }
-/*@media all and (max-width:2800px)
-{  
-    section#principal
-    {
-        width: 98%;
-        margin-left: auto;
-        margin-right: auto;        
-        height: 900px;
-        padding: 1%;
-        margin-top: -10px;
-        display: block;
-        float: left;
-        
 
-
-    }
-    aside#lateral
-    {
-        width: 98%;        
-        height: 900px;
-        padding: 1%;
-        display: block;
-        float: left;
-        margin-top: -15px;
-    }
-    
-}*/
